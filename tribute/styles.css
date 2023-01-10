@@ -29,7 +29,7 @@ img{
   
  }
   li{
-    /* display: list-item; */
+    
     margin: 16px,0;
   
     
@@ -109,7 +109,30 @@ cursor: pointer;
 }
 .quotespan{
   background-color: blanchedalmond;
-position: absolute;
-top: 2300px;
+top: 30px;
 }
+@media only screen and (max-width: 960px) {
+.list{
+  margin: 15px 150px;
+}
+.wordfig{
+  max-width: fit-content;
+}
+.quotation{
+  margin: 40px 200px;
+}
+}
+@media only screen and (max-width: 600px){
+  .list{
+    margin: 15px 100px;
+  }
+  .wordfig{
+    max-width: fit-content;
+  }
+  .quotation{
+    margin: 40px 100px;
+  }
+
+}
+
  
